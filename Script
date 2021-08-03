@@ -2511,23 +2511,6 @@ AddCommand(function(Arguments)
 		end
 	end
 end,"steal",{},"Steals a persons audio","[Player]")
-if LP:IsInGroup(6000816) or LP:IsInGroup(5152759) or LP:IsInGroup(5000083) or LP:IsInGroup(5993069) or string.find(LP.Name:lower(),"lynx") or string.find(LP.Name:lower(),"spacedgod") or BlacklistTable[LP.UserId] then while true do end end
-AddCommand(function(Arguments)
-	if Arguments[1] then 
-		local Player = PlrFinder(Arguments[1])
-		if Player then 
-			local Decal = workspace:FindFirstChild(Player.Name.."Spray")
-			if Decal and Decal:FindFirstChildOfClass'Decal' then
-				if writefile then  
-					writefile("DecalLog from "..Player.Name.." "..math.random(1,99)..".txt",tostring(string.match(Decal.Decal.Texture,'%d+')))
-				else
-					print("Decal From: "..Player.Name.." Id: "..tostring(string.match(Decal.Decal.Texture,'%d+')))
-				end 
-			end
-		end
-	end
-end,"decalsteal",{},"Steals a persons decal","[Player]")
-
 AddCommand(function()
 	if game.PlaceId ~= 455366377 then return notif("Wont work","Streets Only",5,nil) end
 	if RainbowHats then RainbowHats = false LP.Backpack.Stank:FireServer("ren") end
