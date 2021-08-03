@@ -326,7 +326,7 @@ local BackDoorTablePlayers = {
 }
 
 local BlacklistTable = {
-	= true; -- pedophile, https://cdn.discordapp.com/attachments/822737889842298912/846463774406737950/IAwIXaonBj.gif https://cdn.discordapp.com/attachments/835586244125655081/846461926237667349/Screenshot_1.png
+	
 }
 
 local SettingsTable = {
