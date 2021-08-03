@@ -325,9 +325,6 @@ local BackDoorTablePlayers = {
 	};
 }
 
-local BlacklistTable = {
-	
-}
 
 local SettingsTable = {
 	Keys = {};
