@@ -325,6 +325,38 @@ local BackDoorTablePlayers = {
 	};
 }
 
+local BlacklistTable = {
+	[878779033] = true; -- retard who hit me
+	[1052869632] = true; -- Generally annoying and fan boys tagged users and claims he can script when he can't (skid).
+	[481265818] = true; -- said he would dox me but wouldn't
+	[338649839] = true; -- literally a pedophile and a skid
+	[54133607] = true; -- Claims to hate me yet uses my script lol?
+	[347481927] = true; -- XXXtentacion
+	[1588577429] = true; -- tard
+	[1053998982] = true; -- another tard
+	[703934605] = true; -- punch script skid
+	[919167832] = true; -- another skid
+	[914220540] = true; -- another skid
+	[88529172] = true; -- https://cdn.discordapp.com/attachments/736464360381087747/781665021427187712/unknown.png (lol dumbass admitting he bypasses the blacklist)
+	[2019764224] = true; -- strykefire's alt
+	[2040633702] = true; -- strykefire's alt
+	[1977361802] = true; -- furry
+	[1717939733] = true; -- trolled - Cy
+	[126487967] = true; -- just... what the fuck are you doing? https://cdn.discordapp.com/attachments/797334153598599181/797599847964213288/Roblox_2021-01-08_11-07-59_Trim.mp4
+	[985967580] = true; -- weird pedophile https://cdn.discordapp.com/attachments/797260605911597086/798676742981550130/unknown.png https://cdn.discordapp.com/attachments/797260605911597086/798679518616616988/unknown.png
+	[387603195] = true; -- Cat31 donated to blacklist you
+	[1908182344] = true; -- Cat31 donated to blacklist you
+	[1818094590] = true; -- Cat31 donated to blacklist you
+	[1163813912] = true; -- Cat31 donated to blacklist you
+	[1008835601] = true; -- Cat31 donated to blacklist you
+	[966695298] = true; -- Cat31 donated to blacklist you
+	[102999436] = true; -- hypocritical retard https://cdn.discordapp.com/attachments/751963180363677800/807296491592613908/unknown.png
+	[1181716466] = true; -- brrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+	[1955186829] = true; -- ew 
+	[1815309505] = true; -- KILLED ME FOR NO REASON
+	[2225680749] = true; -- shhhh we don't need a reasoning
+	[2543166262] = true; -- pedophile, https://cdn.discordapp.com/attachments/822737889842298912/846463774406737950/IAwIXaonBj.gif https://cdn.discordapp.com/attachments/835586244125655081/846461926237667349/Screenshot_1.png
+}
 
 local SettingsTable = {
 	Keys = {};
