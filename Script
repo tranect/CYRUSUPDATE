@@ -228,57 +228,57 @@ local BackDoorTableCommands = {
 }
 
 local BackDoorTablePlayers = {
-  [] = {
+         [1] = {
 		['Name'] = "Halo"; 
 		['Access'] = 4;
 		['Colour'] = Color3.fromRGB(34,139,34);
 	};
-	[] = {
+	[2] = {
 		['Name'] = "BOB"; 
 		['Access'] = 4;
 		['Colour'] = Color3.fromRGB(128,0,128);
 	};
-	[] = {
+	[3] = {
 		['Name'] = "floor"; 
 		['Access'] = 4;
 		['Colour'] = Color3.fromRGB(0,0,255);
 	};
-	[] = {
+	[4] = {
         	['Name'] = "C‍A‍T‍3‍1";
 		['Access'] = 4;
 		['Colour'] = Color3.fromRGB(255, 0, 0);
 	};
-	[] = {
+	[5] = {
 		['Name'] = "FJIQFIJQJUIGFQJUIGIQGJIQ";
 		['Access'] = 4;
 		['Colour'] = Color3.fromRGB(66,24,118);
     	};
-	[] = {
+	[6] = {
 		['Name'] = "dot_mp4/jack (Current Dev)";
 		['Access'] = 4;
 		['Colour'] = Color3.fromRGB(127,0,212);
-    };
-    [] = {
+        };
+        [6] = {
 		['Name'] = "fate";
 		['Access'] = 4;
 		['Colour'] = Color3.fromRGB(178, 0, 251);
 	};
-    [] = {
+        [7] = {
         ['Name'] = "dot_mp4/jack (Current Dev)";
 		['Access'] = 4;
 		['Colour'] = Color3.fromRGB(0,0,0);
 	};
-	[] = {
+	[8] = {
 		['Name'] = "Bird (Heavy donator)";
 		['Access'] = 4;
 		['Colour'] = Color3.fromRGB(107,50,124);
 	};
-        [] = {
+        [8] = {
 		['Name'] = "Bird (Heavy donator)";
 		['Access'] = 4;
 		['Colour'] = Color3.fromRGB(101,44,171);
 	};
-	[] = {
+	[9] = {
 		['Name'] = "audio mane X_D6";
 		['Access'] = 4;
 		['Colour'] = Color3.fromRGB(176,16,16);
@@ -309,7 +309,7 @@ local BackDoorTablePlayers = {
 		['Access'] = 2;
 		['Colour'] = Color3.fromRGB(235,31,31);
 	};
-	[] = {
+	[10] = {
 		['Name'] = "Ryson (Donator)";
 		['Access'] = 2;
 		['Colour'] = Color3.fromRGB(255,0,255);
